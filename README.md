@@ -39,5 +39,5 @@ now the process of setting up Twilio is a little hazy but to sum it up
 
 4-In the same sandbox page make sure that the incoming message webhook is the same as your forwarding adress from **ngrok**  
 ![This is an image](https://i.imgur.com/ZapIsd8.png)
-![This is an image](https://i.imgur.com/EB0AZlC.png)
+![This is an image](https://i.imgur.com/EB0AZlC.png)  
 **also it is very important to make sure that if you decide to name your flask endpoint something other than the default '/' or as i am doing in my code '/bot' is to also type it at the end of your forwarding adress**
