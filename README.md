@@ -26,4 +26,9 @@ and by running it later in your terminal with
 ```
 ngrok http 4000
 ```
-the only thing that remains is setting up your Twilio 
+the only thing that remains is setting up Twilio
+1- Sign up for a Twillio account from 
+>https://www.twilio.com/try-twilio   
+2- Follow instructions to setup Whatsapp sandbox from
+>https://www.twilio.com/console/sms/whatsapp/sandbox  
+3-
