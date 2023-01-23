@@ -34,4 +34,7 @@ the only thing that remains is setting up Twilio
 >https://www.twilio.com/console/sms/whatsapp/sandbox 
 
 
-3-
+3-Once the whatsapp channel is created you can interact with the bot through messaging the number **+1 415 523 8886** with the code displayed in your sandbox  
+![This is an image](https://imgur.com/a/UDVtTI1)
+
+
