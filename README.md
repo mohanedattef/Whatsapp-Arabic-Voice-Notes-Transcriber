@@ -1,2 +1,16 @@
 # Whatsapp Arabic Voice Notes Transcriber
-This project is an educational project and not a running production application, due to whatsapp limitations the only way to interact with the service without paying is through **Twilio**, in addition i have used **flask**, **ngrok**, and **Kateb API by RDI**
+This project is an educational project and not a running production application, due to whatsapp limitations the only way to interact with the service without paying is through **Twilio**, in addition i have used **flask**, **ngrok**, and **Kateb API by RDI**  
+
+
+# Purpose
+have you ever had someone send you a long voice note that you were refusing to listen to and thought to yourself that you should be able to know what's inside it without having to actually listen? do you love music and wish to never stop listening to it to engage in online conversation? well i have just the solution for you
+with this whatsapp bot you can forward any voice note to it and it would transcribe it to you in near realtime!
+
+
+
+# Libraries and APIS
+***Twilio** for interacting with whatsapp and reciveing and relaying your messages  
+***Flask** to create the web application that will interact with Twilio
+***ngrok** to secure a connection between your web application and the Twilio servers
+***Kateb API** to transcribe the voice notes with Arabic Egyptian dialect, you can also use the google speech recognition API, both are paid and offer free minutes and the google api is more accurate and precise but the kateb API takes much less time to get running and doesn't require a payment method to get access to the api unlike google's
+
