@@ -35,6 +35,6 @@ the only thing that remains is setting up Twilio
 
 
 3-Once the whatsapp channel is created you can interact with the bot through messaging the number **+1 415 523 8886** with the code displayed in your sandbox  
-![This is an image](https://imgur.com/a/UDVtTI1.png)
+![This is an image](https://i.imgur.com/CKXP7ZM.png)
 
 
