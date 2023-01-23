@@ -26,7 +26,7 @@ and by running it later in your terminal with
 ```
 ngrok http 4000
 ```
-the only thing that remains is setting up Twilio   
+now the process of setting up Twilio is a little hazy but to sum it up   
 1- Sign up for a Twillio account from 
 >https://www.twilio.com/try-twilio    
 
@@ -37,4 +37,7 @@ the only thing that remains is setting up Twilio
 3-Once the whatsapp channel is created you can interact with the bot through messaging the number **+1 415 523 8886** with the code displayed in your sandbox  
 ![This is an image](https://i.imgur.com/CKXP7ZM.png)
 
-
+4-In the same sandbox page make sure that the incoming message webhook is the same as your forwarding adress from **ngrok**  
+![This is an image](https://i.imgur.com/ZapIsd8.png)
+![This is an image](https://i.imgur.com/EB0AZlC.png)
+**also it is very important to make sure that if you decide to name your flask endpoint something other than the default '/' or as i am doing in my code '/bot' is to also type it at the end of your forwarding adress**
