@@ -14,7 +14,7 @@ with this whatsapp bot you can forward any voice note to it and it would transcr
 ***ngrok** to secure a connection between your web application and the Twilio servers  
 ***Kateb API** to transcribe the voice notes with Arabic Egyptian dialect, you can also use the google speech recognition API, both are paid and offer free minutes and the google api is more accurate and precise but the kateb API takes much less time to get running and doesn't require a payment method to get access to the api unlike google's
 
-# Setup and Code Snippets 
+# Setup
 ### Python Dependencies    
 to start off you install needed libraries by using **pip** in your terminal
 ```
@@ -40,9 +40,14 @@ now the process of setting up Twilio is a little hazy but to sum it up
 3-Once the whatsapp channel is created you can interact with the bot through messaging the number **+1 415 523 8886** with the code displayed in your sandbox  
 ![This is an image](https://i.imgur.com/CKXP7ZM.png)
 
-4-In the same sandbox page make sure that the incoming message webhook is the same as your forwarding adress from **ngrok**  
+4-In the same sandbox page make sure that the incoming message webhook is the same as your forwarding address from **ngrok**  
 ![This is an image](https://i.imgur.com/ZapIsd8.png)
 ![This is an image](https://i.imgur.com/EB0AZlC.png)  
-**also it is very important to make sure that if you decide to name your flask endpoint something other than the default '/' or as i am doing in my code '/bot' is to also type it at the end of your forwarding adress**   
+**also it is very important to make sure that if you decide to name your flask endpoint something other than the default '/' or as i am doing in my code '/bot' is to also type it at the end of your forwarding address**   
 
 ### Kateb API
+Head over to  
+>https://api.kateb.ai/home  
+
+and signup and request an api key and it will be sent to your E-mail, the next step you'll have to do only once to get your api token and you can do it in your python terminal, save the result api token because you'll need it later   
+![This is an image](https://i.imgur.com/S4Qfq2G.png)
