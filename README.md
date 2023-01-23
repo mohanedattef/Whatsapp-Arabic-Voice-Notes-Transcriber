@@ -10,7 +10,7 @@ with this whatsapp bot you can forward any voice note to it and it would transcr
 
 # Libraries and APIS
 ***Twilio** for interacting with whatsapp and reciveing and relaying your messages  
-***Flask** to create the web application that will interact with Twilio
-***ngrok** to secure a connection between your web application and the Twilio servers
+***Flask** to create the web application that will interact with Twilio  
+***ngrok** to secure a connection between your web application and the Twilio servers  
 ***Kateb API** to transcribe the voice notes with Arabic Egyptian dialect, you can also use the google speech recognition API, both are paid and offer free minutes and the google api is more accurate and precise but the kateb API takes much less time to get running and doesn't require a payment method to get access to the api unlike google's
 
