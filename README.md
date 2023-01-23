@@ -6,7 +6,7 @@ This project is an educational project and not a running production application,
 have you ever had someone send you a long voice note that you didn't feel like listening to but still wanted to know what it contained? do you love music and wish to never stop listening to it to engage in online conversation? well, I have just the solution for you!     
 with this whatsapp bot you can forward any voice note to it and it would transcribe it to you in near realtime!
 
-![This is an video](https://i.imgur.com/wDysyKE.mp4)
+![This is an video](https://i.imgur.com/wDysyKE.gif)
 
 # Libraries and APIS
 ***Twilio** for interacting with whatsapp and reciveing and relaying your messages  
