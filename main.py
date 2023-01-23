@@ -29,7 +29,7 @@ def bot():
                      to=sender
                  )
     message = client.messages.create(
-                     body="Accuracy is: "+str(output[1]),
+                     body="Confidence is: "+str(output[1]),
                      from_='whatsapp:+14155238886',
                      to=sender
                  )
