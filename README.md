@@ -54,5 +54,5 @@ and signup and request an api key and it will be sent to your E-mail, the next s
 
 
 # having fun with it
-run **main.py** and the earlier *ngrok* terminal command and start messaging the Twillo number you texted earlier  
+run **main.py** and the earlier **ngrok** terminal command and start messaging the Twillo number you texted earlier  
 if you have acess to a cloud service you can host the **main.py** file there and have it run endelessly, but you'll have to account for the **Twillo** and **Kateb** free limits.
