@@ -20,7 +20,8 @@ to start off you install needed libraries by using **pip** in your terminal
 pip3 install Twilio Flask
 ```
 and install ngrok manually by going to  
->https://ngrok.com/download  
+>https://ngrok.com/download      
+
 and by running it later in your terminal with
 ```
 ngrok http 4000
