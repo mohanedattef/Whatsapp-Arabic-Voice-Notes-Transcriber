@@ -30,7 +30,7 @@ ngrok http 4000
 ```
 ### Twillio   
 now the process of setting up Twilio is a little hazy but to sum it up   
-1- Sign up for a Twillio account from 
+1- Sign up for a Twillio account from and make sure you store your Account and Authentication tokens in your **.env** file    
 >https://www.twilio.com/try-twilio    
 
 2- Follow instructions to setup Whatsapp sandbox from
@@ -49,5 +49,8 @@ now the process of setting up Twilio is a little hazy but to sum it up
 Head over to  
 >https://api.kateb.ai/home  
 
-and signup and request an api key and it will be sent to your E-mail, the next step you'll have to do only once to get your api token and you can do it in your python terminal, save the result api token because you'll need it later   
+and signup and request an api key and it will be sent to your E-mail, the next step you'll have to do only once to get your api token and you can do it in your python terminal, store the result token in your **.env** file      
 ![This is an image](https://i.imgur.com/S4Qfq2G.png)
+
+
+
